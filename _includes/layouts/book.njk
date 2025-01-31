@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+
+<h1>{{ title }}</h1>
+<aside>
+    <img src="{{ book_cover_url }}">
+</aside>
+<h2>Résumé</h2>
+{{ content | safe }}
+<article>
+<p>Un livre écrit par <strong>{{ book_author }}</strong> et paru le {{ book_date | blogDate }} dans la collection <a href="{{ book_collection_url }}">{{ book_collection }}</a>.</p>
+<p>ISBN : {{ book_p_isbn }} (numérique : {{ book_d_isbn }})</p>
+</article>
+<h3>Acheter</h3>
+<p>Vous pouvez commander le livre physique ({{ book_p_price }}) auprès de votre libraire ou bien passer directement par <a href="{{ book_p_buy_url }}">HelloAsso</a>.</p>
+<p>La version numérique ({{ book_d_price }}) est disponible chez la <a href="{{ book_d_buy_url_Fnac }}">Fnac</a>, sur <a href="{{ book_d_buy_url_Kobo }}">Kobo</a> et <a href="{{ book_d_buy_url_Google }}">Google</a>.
