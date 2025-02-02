@@ -1,6 +1,6 @@
 ---
 tags: headernav
-date: 2015-03-02
+order: 2
 layout: layouts/page.njk
 title: catalogue
 ---
