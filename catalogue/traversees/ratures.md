@@ -1,5 +1,5 @@
 ---
-tags: catalogue_traversees
+tags: ["catalogue","traversees"]
 layout: layouts/book.njk
 title: Ratures
 book:

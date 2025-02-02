@@ -4,7 +4,7 @@ backend:
 media_folder: "assets/images/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "blog" # Used in the UI
+    label: "Billet de blog" # Used in the UI
     folder: "blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -15,3 +15,36 @@ collections:
       - {label: "tags", name: "tags", widget: "hidden", default: ["blog"]}
       - {label: "Catégorie", name: "category", widget: "list", default: ["Général"]}
       - {label: "Contenu", name: "body", widget: "markdown"}
+  - name: "pages" 
+    label: "Pages du site"
+    folder: ""
+    create: true
+    slug: ""
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
+      - {label: "tags", name: "tags", widget: "hidden", default: ["headernav"]}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+      - {label: "Ordre", name: "order", widget: "int"}
+  - name: "books"
+    label: "Livres"
+    folder: "catalogue"
+    create: true
+    slug: ""
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/book.njk"}
+      - {label: "tags", name: "tags", widget: "hidden", default: ["headernav"]}
+      - {label: "Titre du livre", name: "book.title", widget: "string"}
+      - {label: "Collection", name: "book.collection", widget: "list", default: ["Traversées"]}
+      - {label: "Auteurice", name: "book.author", widget: "author", widget: "string"}
+      - {label: "Date de parution", name: "book.date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+      - {label: "Prix papier", name: "book.p_price", widget: "int"}
+      - {label: "Prix numérique", name: "book.d_price", widget: "int"}
+      - {label: "ISBN papier", name: "book.p_isbn", widget: "string"}
+      - {label: "ISBN numérique", name: "book.d_isbn", widget: "string"}
+      - {label: "Couverture (URL)", name: "book.cover_url", widget: "string"}    
+      - {label: "Lien achat papier", name: "book.p_buy_url", widget: "string"}
+      - {label: "Lien achat numérique Fnac", name: "book.d_buy_url_Fnac", widget: "string"}
+      - {label: "Lien achat numérique Kobo", name: "book.d_buy_url_Kobo", widget: "string"}
+      - {label: "Lien achat numérique Google", name: "book.d_buy_url_Google", widget: "string"}
+      - {label: "Résumé", name: "description", widget: "markdown"}
