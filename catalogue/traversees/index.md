@@ -1,9 +1,7 @@
 ---
 tags: collection
-
-title: Collection traversées
-
 layout: layouts/page.njk
+title: Collection traversées
 ---
 
 <ul>

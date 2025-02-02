@@ -1,9 +1,8 @@
 ---
 tags: pages
-
-title: blog
-
 layout: layouts/base.njk
+title: blog
+order: 5
 ---
 <ul>
   {% for post in collections.blog %}

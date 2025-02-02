@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>les éditions du samedi</title>
+    <title>les éditions du samedi | {{ title }}</title>
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <script src="https://kit.fontawesome.com/6f8e82c9ac.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/assets/images/favicon.png" />
   </head>
   <body>
     <header>
@@ -22,5 +24,12 @@
 	    {{ content | safe }}
     </main>
   </body>
-  <footer>Site en construction</footer>
+  <footer>
+    <ul>
+      <li><a href="https://www.facebook.com/editionsdusamedi" alt="Facebook" title="Facebook"><i class="fa-brands fa-facebook">Facebook</i></a></li>
+      <li><a href="https://www.instagram.com/leseditionsdusamedi" alt="Instagram" title="Instagram"><i class="fa-brands fa-instagram">Instagram</i></a></li>
+      <li><a href="https://re.lire.im/@editionsdusamedi" alt="Mastodon" title="Mastodon"><i class="fa-brands fa-mastodon">Mastodon</i></a></li>
+      <li><a href="http://editionsdusamedi.fr/contact" alt="Contact" title="Contact"><i class="fa-regular fa-envelope">Email</i></a></li>
+    </ul>
+  </footer>
 </html>
