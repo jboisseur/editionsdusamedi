@@ -1,8 +1,8 @@
 ---
 tags: headernav
+date: 2015-03-02
 layout: layouts/page.njk
 title: catalogue
-order: 2
 ---
 (Vous êtes libraire ? Nous n'avons pas (encore) de distributeur, si vous souhaitez passer commande envoyez-nous un email !)
 

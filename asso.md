@@ -1,8 +1,8 @@
 ---
 tags: headernav
+date: 2015-03-03
 layout: layouts/page.njk
 title: l'asso
-order: 3
 ---
 Association à but non lucratif fondée en mars 2015, **les éditions du samedi** ont vocation à publier des textes qu'elles auront trouvé stylés et atypiques, dans l'idée de les faire circuler chez les copaines voire au-delà. Elles sont aujourd’hui animées par un petit groupe enthousiaste - Anne-Laure, Dorian, Eva, Julie et Loïc - qui a décidé de s’organiser avec un fonctionnement collégial pour trouver et éditer des textes qui lui plaisent. Les enthousiastes supplémentaires sont les bienvenu·es dans la bande !
 

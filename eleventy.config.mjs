@@ -9,6 +9,16 @@ export default async function (eleventyConfig) {
     // Format date
     eleventyConfig.addFilter('blogDate', blogDate);
 
+	// Sort with `Array.sort`
+	eleventyConfig.addCollection("headernav", function (headernav) {
+		return headernav.getAll().sort(function (a, b) {
+			//return a.date - b.date; // sort by date - ascending
+			return b.date - a.date; // sort by date - descending
+			//return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+			//return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+		});
+	});
+
     // RSS plugin
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "rss",

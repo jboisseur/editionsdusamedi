@@ -1,8 +1,8 @@
 ---
 tags: headernav
+date: 2015-03-04
 layout: layouts/page.njk
 title: contact
-order: 4
 ---
 <form name="contact" method="POST" data-netlify="true" action="/contact-success">
   <label for="name">Votre nom</label>

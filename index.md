@@ -1,8 +1,8 @@
 ---
 tags: headernav
+order: 1
 layout: layouts/page.njk
 title: accueil
-order: 1
 ---
 Cabane éditoriale en perpétuel chantier, les éditions du samedi se sont réunies en association pour partager leur kiff :
 - rassembler celles et ceux qui veulent tenter une expérience différente de la publication ;

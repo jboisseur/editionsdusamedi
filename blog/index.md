@@ -1,8 +1,8 @@
 ---
 tags: headernav
+date: 2015-03-05
 layout: layouts/base.njk
 title: blog
-order: 5
 ---
 <ul>
   {% for post in collections.blog %}
