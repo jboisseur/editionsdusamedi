@@ -1,5 +1,5 @@
 ---
-tags: pages
+tags: headernav
 layout: layouts/base.njk
 title: blog
 order: 5

@@ -1,5 +1,5 @@
 ---
-tags: pages
+tags: headernav
 layout: layouts/page.njk
 title: l'asso
 order: 3

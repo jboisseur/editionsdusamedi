@@ -1,5 +1,5 @@
 ---
-tags: pages
+tags: headernav
 layout: layouts/page.njk
 title: contact
 order: 4
