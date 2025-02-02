@@ -4,7 +4,7 @@ layout: layouts/page.njk
 title: contact
 order: 4
 ---
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true" action="/contact-success">
   <label for="name">Votre nom</label>
   <input type="text" name="name" id="name" autocomplete="name" placeholder="Votre nom" title="Veuillez entrer votre nom" required>
   <label for="email">Votre adresse email</label>
