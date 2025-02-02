@@ -9,11 +9,6 @@ export default async function (eleventyConfig) {
     // Format date
     eleventyConfig.addFilter('blogDate', blogDate);
 
-	// Sort pages by order in headernav
-	eleventyConfig.addCollection("headernav", function (collection) {
-		return collection.getAll().filter((headernav) => headernav.data.order);
-	});
-
     // RSS plugin
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "rss",

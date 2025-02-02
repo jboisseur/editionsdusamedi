@@ -8,7 +8,7 @@ order: 2
 
 ## collection traversées
 <ul>
-  {% for post in collections.catalogue_traversees %}
+  {% for post in collections.traversees %}
   <li><a href="{{post.url}}">{{post.data.title}}</a></li>
   {% endfor %}
 </ul>
