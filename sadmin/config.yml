@@ -36,10 +36,10 @@ collections:
       - {label: "tags", name: "tags", widget: "hidden", default: ["headernav"]}
       - {label: "Titre du livre", name: "book.title", widget: "string"}
       - {label: "Collection", name: "book.collection", widget: "list", default: ["Traversées"]}
-      - {label: "Auteurice", name: "book.author", widget: "author", widget: "string"}
+      - {label: "Auteurice", name: "book.author", widget: "string"}
       - {label: "Date de parution", name: "book.date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
-      - {label: "Prix papier", name: "book.p_price", widget: "int"}
-      - {label: "Prix numérique", name: "book.d_price", widget: "int"}
+      - {label: "Prix papier", name: "book.p_price", widget: "number"}
+      - {label: "Prix numérique", name: "book.d_price", widget: "number"}
       - {label: "ISBN papier", name: "book.p_isbn", widget: "string"}
       - {label: "ISBN numérique", name: "book.d_isbn", widget: "string"}
       - {label: "Couverture (URL)", name: "book.cover_url", widget: "string"}    
