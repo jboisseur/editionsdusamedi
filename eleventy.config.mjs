@@ -4,6 +4,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 export default async function (eleventyConfig) {
     // Copy assets
     eleventyConfig.addPassthroughCopy("assets");
+	eleventyConfig.addPassthroughCopy("sadmin");
     
     // Format date
     eleventyConfig.addFilter('blogDate', blogDate);
