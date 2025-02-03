@@ -10,7 +10,7 @@ export default async function (eleventyConfig) {
     eleventyConfig.addFilter('blogDate', blogDate);
 
 	// Returns headernav items, sorted by order
-	config.addCollection('headernav', (collection) => {
+	eleventyConfig.addCollection('headernav', (collection) => {
 	return collection
 		.getFilteredByTags("headernav")
 		.sort((a, b) => (Number(a.data.order) > Number(b.data.order) ? 1 : -1));
