@@ -28,7 +28,7 @@ collections:
       - {label: "Ordre", name: "order", widget: "number"}
   - name: "books"
     label: "Livre"
-    folder: "catalogue/livres"
+    folder: "catalogue/livres/"
     create: true
     slug: ""
     fields:
