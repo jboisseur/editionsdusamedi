@@ -22,7 +22,6 @@ collections:
     slug: ""
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
-      - {label: "tags", name: "tags", widget: "hidden", default: ["headernav"]}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Contenu", name: "body", widget: "markdown"}
       - {label: "Ordre", name: "order", widget: "number"}
@@ -33,12 +32,13 @@ collections:
     slug: ""
     fields:
       - {label: "tags", name: "tags", widget: "list", default: ["coll_traversees","coll_vagabondages"]}
+      - {label: "permalink", name: "permalink", widget: "string", default: "catalogue/changeme/"}
       - {label: "Titre du livre", name: "book.title", widget: "string"}
       - {label: "Collection", name: "book.collection", widget: "list", default: ["Traversées","Vagabondages"]}
       - {label: "Auteurice", name: "book.author", widget: "string"}
       - {label: "Date de parution", name: "book.date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
-      - {label: "Prix papier", name: "book.p_price", widget: "number"}
-      - {label: "Prix numérique", name: "book.d_price", widget: "number"}
+      - {label: "Prix papier", name: "book.p_price", widget: "number", value_type: "float"}
+      - {label: "Prix numérique", name: "book.d_price", widget: "number", value_type: "float"}
       - {label: "ISBN papier", name: "book.p_isbn", widget: "string"}
       - {label: "ISBN numérique", name: "book.d_isbn", widget: "string"}
       - {label: "Couverture (URL)", name: "book.cover_url", widget: "string"}    
