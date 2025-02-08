@@ -30,7 +30,7 @@ collections:
     label: "Livre"
     folder: "catalogue/livres"
     create: true
-    slug: ""
+    slug: "book.title.md"
     fields:
       - {label: "tags", name: "tags", widget: "list", default: ["coll_traversees","coll_vagabondages"]}
       - {label: "permalink", name: "permalink", widget: "string", default: "catalogue/changeme/"}
