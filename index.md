@@ -14,4 +14,10 @@ Nos vagabonds de carton et autres traversées littéraires ne voient pas d'incon
 Aux autrices et auteurs séduits par la perspective de ne pas gagner un rond en faisant circuler leur œuvre à ciel ouvert
 Aux amateurs et amatrices de pépites inclassables qui ont envie de les faire bourlinguer
 Aux gens qui voyagent dans leur quartier dans leur tête ou sur leur planète
-Soyez les bienvenu·es ! 
+Soyez les bienvenu·es !
+
+![Photo en vue du dessus d'un bazar de papiers découpés de magazines ou journaux, tubes de colle, feutres dans une trousse ouverte, règle etc.](_assets/images/pages/accueil_atelier.jpg)
+
+Outre consulter notre catalogue, vous pouvez trouver sur notre site une présentation de l'association. Pour ne manquer aucune info, vous pouvez suivre notre actu sur Facebook, Twitter / X, Instagram, Mastodon ou notre blog.
+
+À très vite !

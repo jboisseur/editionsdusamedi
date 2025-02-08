@@ -3,8 +3,9 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 export default async function (eleventyConfig) {
     // Copy assets
-    eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("_assets");
 	eleventyConfig.addPassthroughCopy("sadmin");
+	eleventyConfig.addPassthroughCopy({"node_modules/simpledotcss/simple.min.css": "_assets/css/simple.min.css"});
     
     // Format date
     eleventyConfig.addFilter('blogDate', blogDate);
@@ -40,7 +41,7 @@ export default async function (eleventyConfig) {
 function blogDate(input) {
     return `${new Date(input).toLocaleString("fr-FR", {
       year: "numeric",
-      month: "long",
+      month: "short",
       day: "numeric",
     })}`;
 }

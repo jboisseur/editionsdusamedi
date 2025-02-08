@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "BookendsWithAccents";
+    src: url('../fonts/BookendsWithAccents.ttf');
+}
+
+/* header */
+header h1 > a, header h1 > a:visited {
+    color: var(--text);
+    text-decoration: initial;
+}
+
+header h1 > a:hover {
+    color: var(--accent);
+}
+
+header h1 {
+    font-family: "BookendsWithAccents";
+}
+
+header img {
+    border-radius: 50%;
+    border: 2px solid var(--text);
+    vertical-align: middle;
+    opacity: 1;
+}
+
+header img:hover {
+    border: 2px solid var(--accent);
+}
+
+/* footer */
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style:none;
+    font-size: x-large;
+}
+
+/* images in main */
+main img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* cover */
+.cover {
+    float: right;
+    margin: 1.75rem 0 0 0.75rem;
+    max-width: 20%;
+    font-style: italic;
+    font-size: smaller;
+    color: var(--text-light);
+    text-align: center;
+}

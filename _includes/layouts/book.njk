@@ -1,17 +1,24 @@
 ---
 layout: layouts/base.njk
 ---
+<div class="cover">
+    <img src="{{ book.cover_url }}" >
+    <p>paru le {{ book.date | blogDate }}</p>
+</div>
 
 <h1>{{ title }}</h1>
-<aside>
-    <img src="{{ book.cover_url }}">
-</aside>
-<h2>Résumé</h2>
+<p>Un livre écrit par <strong>{{ book.author }}</strong> dans la collection <a href="{{ book.collection_url }}">{{ book.collection }}</a>.</p>
+       
+<h2>Résumé</h2>    
 {{ content | safe }}
-<article>
-<p>Un livre écrit par <strong>{{ book.author }}</strong> et paru le {{ book.date | blogDate }} dans la collection <a href="{{ book.collection_url }}">{{ book.collection }}</a>.</p>
-<p>ISBN : {{ book.p_isbn }} (numérique : {{ book.d_isbn }})</p>
-</article>
+
 <h3>Acheter</h3>
-<p>Vous pouvez commander le livre physique ({{ book.p_price }}) auprès de votre libraire ou bien passer directement par <a href="{{ book.p_buy_url }}">HelloAsso</a>.</p>
-<p>La version numérique ({{ book.d_price }}) est disponible chez la <a href="{{ book.d_buy_url_Fnac }}">Fnac</a>, sur <a href="{{ book.d_buy_url_Kobo }}">Kobo</a> et <a href="{{ book.d_buy_url_Google }}">Google</a>.
+<h4>Livre papier ({{ book.p_price }})</h4>
+<p>Vous pouvez commander le livre auprès de votre libraire ou bien passer par notre boutique sur <a href="{{ book.p_buy_url }}">HelloAsso</a>.</p>
+<h4>Livre numérique ({{ book.d_price }})</h4>
+<p>La version numérique est disponible chez la <a href="{{ book.d_buy_url_Fnac }}" class="button">Fnac</a>, sur <a href="{{ book.d_buy_url_Kobo }}" class="button">Kobo</a> et <a href="{{ book.d_buy_url_Google }}" class="button">Google</a>.
+<div class="notice">
+    <p><strong>ISBN</strong><br>
+    papier : {{ book.p_isbn }}<br> 
+    numérique : {{ book.d_isbn }}</p>
+</div>

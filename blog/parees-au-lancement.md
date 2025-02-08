@@ -1,11 +1,7 @@
 ---
-tags: blog
-
 title: Parées au lancement !
 date: 2015-07-11
 category: Général
-
-layout: layouts/post.njk
 ---
 
 Salut la foule,

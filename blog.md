@@ -1,7 +1,7 @@
 ---
 tags: headernav
-order: 5
 layout: layouts/base.njk
+order: 5
 title: blog
 ---
 <ul>

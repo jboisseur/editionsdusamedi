@@ -1,11 +1,7 @@
 ---
-tags: blog
-
 title: Sur les chapeaux de rôûês
 date: 2015-07-25
 category: Général
-
-layout: layouts/post.njk
 ---
 
 Chers lecteurs !
