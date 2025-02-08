@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "assets/images/uploads"
+media_folder: "_assets/images/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Billet" # Used in the UI
@@ -28,14 +28,13 @@ collections:
       - {label: "Ordre", name: "order", widget: "number"}
   - name: "books"
     label: "Livre"
-    folder: "catalogue"
+    folder: "catalogue/livres"
     create: true
     slug: ""
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/book.njk"}
-      - {label: "tags", name: "tags", widget: "hidden", default: ["headernav"]}
+      - {label: "tags", name: "tags", widget: "list", default: ["coll_traversees","coll_vagabondages"]}
       - {label: "Titre du livre", name: "book.title", widget: "string"}
-      - {label: "Collection", name: "book.collection", widget: "list", default: ["Traversées"]}
+      - {label: "Collection", name: "book.collection", widget: "list", default: ["Traversées","Vagabondages"]}
       - {label: "Auteurice", name: "book.author", widget: "string"}
       - {label: "Date de parution", name: "book.date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
       - {label: "Prix papier", name: "book.p_price", widget: "number"}

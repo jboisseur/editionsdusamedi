@@ -1,6 +1,6 @@
 ---
-layout: layouts/book.njk
 title: Ratures
+permalink: "catalogue/ratures/"
 tags: coll_traversees
 book:
     collection: traversées

@@ -6,6 +6,7 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("_assets");
 	eleventyConfig.addPassthroughCopy("sadmin");
 	eleventyConfig.addPassthroughCopy({"node_modules/simpledotcss/simple.min.css": "_assets/css/simple.min.css"});
+	//eleventyConfig.addPassthroughCopy({"catalogue/livres": "catalogue" });
     
     // Format date
     eleventyConfig.addFilter('blogDate', blogDate);
