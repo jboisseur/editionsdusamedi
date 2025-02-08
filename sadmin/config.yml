@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: main
 locale: 'fr'
+publish_mode: editorial_workflow
 media_folder: "_assets/images/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -33,8 +34,8 @@ collections:
     slug: "book.title.md"
     fields:
       - {label: "tags", name: "tags", widget: "list", default: ["coll_traversees","coll_vagabondages"]}
-      - {label: "permalink", name: "permalink", widget: "string", default: "catalogue/changeme/"}
       - {label: "Titre du livre", name: "book.title", widget: "string"}
+      - {label: "permalink", name: "permalink", widget: "string", default: "catalogue/changeme/"}
       - {label: "Collection", name: "book.collection", widget: "list", default: ["Traversées","Vagabondages"]}
       - {label: "Auteurice", name: "book.author", widget: "string"}
       - {label: "Date de parution", name: "book.date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
