@@ -1,6 +1,6 @@
 ---
 title: Journal du bord
-permalink: catalogue/{{slug}}/
+permalink: catalogue/journaldubord/
 book:
   collection: vagabondages
   author: Julien Usseglio
