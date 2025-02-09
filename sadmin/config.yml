@@ -41,13 +41,13 @@ collections:
       - {label: "Collection", name: "book.collection", widget: "list", default: ["Traversées","Vagabondages"]}
       - {label: "Auteurice", name: "book.author", widget: "string"}
       - {label: "Date de parution", name: "book.date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
-      - {label: "Prix papier", name: "book.p_price", widget: "number", value_type: "float", required: "false"}
-      - {label: "Prix numérique", name: "book.d_price", widget: "number", value_type: "float", required: "false"}
-      - {label: "ISBN papier", name: "book.p_isbn", widget: "string", required: "false"}
-      - {label: "ISBN numérique", name: "book.d_isbn", widget: "string", required: "false"}
-      - {label: "Couverture (URL)", name: "book.cover_url", widget: "string", required: "false"}    
-      - {label: "Lien achat papier", name: "book.p_buy_url", widget: "string", required: "false"}
-      - {label: "Lien achat numérique Fnac", name: "book.d_buy_url_Fnac", widget: "string", required: "false"}
-      - {label: "Lien achat numérique Kobo", name: "book.d_buy_url_Kobo", widget: "string", required: "false"}
-      - {label: "Lien achat numérique Google", name: "book.d_buy_url_Google", widget: "string", required: "false"}
+      - {label: "Prix papier", name: "book.p_price", widget: "number", value_type: "float", required: false}
+      - {label: "Prix numérique", name: "book.d_price", widget: "number", value_type: "float", required: false}
+      - {label: "ISBN papier", name: "book.p_isbn", widget: "string", required: false}
+      - {label: "ISBN numérique", name: "book.d_isbn", widget: "string", required: false}
+      - {label: "Couverture (URL)", name: "book.cover_url", widget: "string", required: false}    
+      - {label: "Lien achat papier", name: "book.p_buy_url", widget: "string", required: false}
+      - {label: "Lien achat numérique Fnac", name: "book.d_buy_url_Fnac", widget: "string", required: false}
+      - {label: "Lien achat numérique Kobo", name: "book.d_buy_url_Kobo", widget: "string", required: false}
+      - {label: "Lien achat numérique Google", name: "book.d_buy_url_Google", widget: "string", required: false}
       - {label: "Résumé", name: "description", widget: "markdown"}
