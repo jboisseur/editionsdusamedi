@@ -41,12 +41,7 @@ collections:
         collapse: true
         widget: "object"
         fields:
-          - label: "Collection"
-            name: "collection"
-            widget: "list"
-            fields:
-              - {label: traversées, name: traversees, widget: string}
-              - {label: vagabondages, name: vagabondages", widget: string}
+          - { label: "Collection", name: "collection", widget: "select", options: ["traversées", "vagabondages"]}
           - {label: "Auteurice", name: "author", widget: "string"}
           - {label: "Date de parution", name: "date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
           - {label: "Prix papier", name: "p_price", widget: "number", value_type: "float", required: false}
