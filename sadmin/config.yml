@@ -34,7 +34,7 @@ collections:
     slug: "title.md"
     fields:
       - {label: "tags", name: "tags", widget: "list", default: ["coll_traversees","coll_vagabondages"]}
-      - {label: "Collection", name: "collection", widget: "list", default: ["Traversées","Vagabondages"]}
+      - {label: "Collection", name: "book['collection']", widget: "list", default: ["Traversées","Vagabondages"]}
       - {label: "Titre du livre", name: "title", widget: "string"}
       - {label: "permalink", name: "permalink", widget: "string", default: "catalogue/changeme/"}   
       - {label: "Auteurice", name: "author", widget: "string"}
