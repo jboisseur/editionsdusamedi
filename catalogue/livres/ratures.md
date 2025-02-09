@@ -1,7 +1,6 @@
 ---
 title: Ratures
 permalink: "catalogue/ratures/"
-tags: book
 book:
     collection: traversées
     collection_url: /catalogue/traversees/

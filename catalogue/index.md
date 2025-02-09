@@ -9,7 +9,7 @@ title: catalogue
 ## collection traversées
 <ul>
   {% for post in collections.book %}
-    {% if book.collection != "traversées" %}
+    {% if post.data.book.collection == "traversées" %}
       <li><a href="{{post.url}}">{{post.data.title}}</a></li>
     {% endif %}
   {% endfor %}
@@ -18,7 +18,7 @@ title: catalogue
 ## collection vagabondages
 <ul>
   {% for post in collections.book %}
-    {% if book.collection != "vagabondages" %}
+    {% if post.data.book.collection == "vagabondages" %}
       <li><a href="{{post.url}}">{{post.data.title}}</a></li>
     {% endif %}
   {% endfor %}
