@@ -6,17 +6,19 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("_assets");
 	eleventyConfig.addPassthroughCopy("sadmin");
 	eleventyConfig.addPassthroughCopy({"node_modules/simpledotcss/simple.min.css": "_assets/css/simple.min.css"});
-	//eleventyConfig.addPassthroughCopy({"catalogue/livres": "catalogue" });
     
     // Format date
     eleventyConfig.addFilter('blogDate', blogDate);
+	eleventyConfig.addFilter('withoutYear', withoutYear);
 
-	// Returns headernav items, sorted by order
-	eleventyConfig.addCollection('headernav', (collection) => {
-	return collection
-		.getFilteredByTags("headernav")
-		.sort((a, b) => (Number(a.data.order) > Number(b.data.order) ? 1 : -1));
-	});
+	// AddCollections
+
+		// Returns headernav items, sorted by order
+		eleventyConfig.addCollection('headernav', (collection) => {
+		return collection
+			.getFilteredByTags("headernav")
+			.sort((a, b) => (Number(a.data.order) > Number(b.data.order) ? 1 : -1));
+		});
 
     // RSS plugin
     eleventyConfig.addPlugin(feedPlugin, {
@@ -38,11 +40,25 @@ export default async function (eleventyConfig) {
 	});
 }
 
-// Function for date formatting
-function blogDate(input) {
-    return `${new Date(input).toLocaleString("fr-FR", {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-    })}`;
-}
+// Date formatting
+	// 25 juil. 2015
+	function blogDate(input) {
+		return `${new Date(input).toLocaleString("fr-FR", {
+		year: "numeric",
+		month: "short",
+		day: "numeric",
+		})}`;
+	}
+
+	// 25 juillet
+	function withoutYear(input) {
+		return `${new Date(input).toLocaleString("fr-FR", {
+		month: "long",
+		day: "numeric",
+		})}`;
+	}
+
+// Use njk rather than liquid (add "templateEngineOverride: njk,md" in frontmatter)
+export const config = {
+	markdownTemplateEngine: "njk",
+  };
