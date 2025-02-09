@@ -1,6 +1,6 @@
 ---
 title: les têtes coupées
-permalink: catalogue/{{slug}}/
+permalink: catalogue/les-tetes-coupees/
 book:
   collection: traversées
   author: au loin en fleurs
