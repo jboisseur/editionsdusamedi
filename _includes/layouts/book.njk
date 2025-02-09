@@ -13,9 +13,9 @@ layout: layouts/base.njk
 {{ content | safe }}
 
 <h3>Acheter</h3>
-<h4>Livre papier ({{ book.p_price }})</h4>
+<h4>Livre papier ({{ book.p_price }} €)</h4>
 <p>Vous pouvez commander le livre auprès de votre libraire ou bien passer par notre boutique sur <a href="{{ book.p_buy_url }}">HelloAsso</a>.</p>
-<h4>Livre numérique ({{ book.d_price }})</h4>
+<h4>Livre numérique ({{ book.d_price }} €)</h4>
 <p>La version numérique est disponible chez la <a href="{{ book.d_buy_url_Fnac }}" class="button">Fnac</a>, sur <a href="{{ book.d_buy_url_Kobo }}" class="button">Kobo</a> et <a href="{{ book.d_buy_url_Google }}" class="button">Google</a>.
 <div class="notice">
     <p><strong>ISBN</strong><br>

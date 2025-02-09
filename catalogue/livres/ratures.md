@@ -7,8 +7,8 @@ book:
     collection_url: /catalogue/traversees/
     author: Gabriel Barrault
     date: 2023-10-28
-    p_price: 13.00 EUR
-    d_price: 4.99 EUR
+    p_price: 13
+    d_price: 4.99
     p_isbn: 9782956245513
     d_isbn: 9782956245520
     cover_url: /_assets/images/catalogue/ratures.jpg
