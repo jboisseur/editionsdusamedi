@@ -16,7 +16,7 @@ Aux amateurs et amatrices de pépites inclassables qui ont envie de les faire bo
 Aux gens qui voyagent dans leur quartier dans leur tête ou sur leur planète
 Soyez les bienvenu·es !
 
-![Photo en vue du dessus d'un bazar de papiers découpés de magazines ou journaux, tubes de colle, feutres dans une trousse ouverte, règle etc.](_assets/images/pages/accueil_atelier.jpg)
+![Photo en vue du dessus d'un bazar de papiers découpés de magazines ou journaux, tubes de colle, feutres dans une trousse ouverte, règle etc.](_assets/uploads/images/pages/accueil_atelier.jpg)
 
 Outre consulter notre catalogue, vous pouvez trouver sur notre site une présentation de l'association. Pour ne manquer aucune info, vous pouvez suivre notre actu sur Facebook, Twitter / X, Instagram, Mastodon ou notre blog.
 

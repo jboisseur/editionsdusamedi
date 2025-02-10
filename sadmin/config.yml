@@ -3,14 +3,14 @@ backend:
   branch: main
 locale: 'fr'
 publish_mode: editorial_workflow
-media_folder: "_assets/images/uploads"
+media_folder: "_assets/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Billets" # Used in the UI
     label_singular: "Billet" # Used in the UI, ie: "New Post"
     folder: "blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Titre", name: "title", widget: "string"}
@@ -22,7 +22,7 @@ collections:
     label: "Page"
     folder: "/"
     create: true
-    slug: ""
+    slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
       - {label: "Titre", name: "title", widget: "string"}
@@ -48,8 +48,13 @@ collections:
           - {label: "Prix numérique", name: "d_price", widget: "number", value_type: "float", required: false}
           - {label: "ISBN papier", name: "p_isbn", widget: "string", required: false}
           - {label: "ISBN numérique", name: "d_isbn", widget: "string", required: false}
-          - {label: "Couverture (URL)", name: "cover_url", widget: "string", required: false}    
-          - {label: "Lien achat papier", name: "p_buy_url", widget: "string", required: false}
+          - label: "Couverture"
+            name: "cover"
+            widget: "file"
+            required: false
+            media_library:
+              config:
+                multiple: false
           - {label: "Lien achat numérique Fnac", name: "d_buy_url_Fnac", widget: "string", required: false}
           - {label: "Lien achat numérique Kobo", name: "d_buy_url_Kobo", widget: "string", required: false}
           - {label: "Lien achat numérique Google", name: "d_buy_url_Google", widget: "string", required: false}

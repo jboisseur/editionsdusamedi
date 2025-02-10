@@ -10,8 +10,7 @@ book:
     d_price: 4.99
     p_isbn: 9782956245513
     d_isbn: 9782956245520
-    cover_url: /_assets/images/catalogue/ratures.jpg
-    p_buy_url: https://www.helloasso.com/associations/les-editions-du-samedi/boutiques/test
+    cover: /_assets/uploads/images/catalogue/ratures.jpg
     d_buy_url_Fnac: https://www.fnac.com/livre-numerique/a18795703/Gabriel-Barrault-Ratures
     d_buy_url_Kobo: https://www.kobo.com/fr/fr/ebook/ratures-1
     d_buy_url_Google: https://play.google.com/store/books/details?id=aPbJEAAAQBAJ
