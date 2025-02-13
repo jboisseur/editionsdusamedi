@@ -3,7 +3,6 @@ title: les têtes coupées
 permalink: catalogue/les-tetes-coupees/
 book:
   collection: traversées
-  collection_url: /catalogue/traversees/
   author: au loin en fleurs
   date: 2023-10-28
   p_price: 11

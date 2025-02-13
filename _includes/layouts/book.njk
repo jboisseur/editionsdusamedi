@@ -7,7 +7,7 @@ layout: layouts/base.njk
 </div>
 
 <h1>{{ title }}</h1>
-<p>Un livre écrit par <strong>{{ book.author }}</strong> dans la collection <a href="{{ book.collection_url }}">{{ book.collection }}</a>.</p>
+<p>Un livre écrit par <strong>{{ book.author }}</strong> dans la collection {{ book.collection }}.</p>
        
 <h2>Résumé</h2>    
 {{ content | safe }}

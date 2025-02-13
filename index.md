@@ -18,6 +18,6 @@ Soyez les bienvenu·es !
 
 ![Photo en vue du dessus d'un bazar de papiers découpés de magazines ou journaux, tubes de colle, feutres dans une trousse ouverte, règle etc.](_assets/uploads/images/pages/accueil_atelier.jpg)
 
-Outre consulter notre catalogue, vous pouvez trouver sur notre site une présentation de l'association. Pour ne manquer aucune info, vous pouvez suivre notre actu sur Facebook, Twitter / X, Instagram, Mastodon ou notre blog.
+Outre consulter notre <a href="/catalogue/" target="_blank" title="Catalogue">catalogue</a>, vous pouvez trouver sur notre site une présentation de <a href="/asso/" target="_blank" title="Association">l'association</a>. Pour ne manquer aucune info, vous pouvez suivre notre actu sur <a href="https://www.facebook.com/editionsdusamedi" target="_blank" title="Facebook">Facebook</a>, <a href="https://www.instagram.com/leseditionsdusamedi" target="_blank" title="Instagram">Instagram</a>, <a href="https://re.lire.im/@editionsdusamedi" target="_blank" title="Mastodon">Mastodon</a> ou notre <a href="/blog/" target="_blank" title="Blog">blog</a>.
 
 À très vite !

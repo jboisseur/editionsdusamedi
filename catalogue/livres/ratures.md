@@ -3,7 +3,6 @@ title: Ratures
 permalink: "catalogue/ratures/"
 book:
     collection: traversées
-    collection_url: /catalogue/traversees/
     author: Gabriel Barrault
     date: 2023-10-28
     p_price: 13
@@ -11,6 +10,7 @@ book:
     p_isbn: 9782956245513
     d_isbn: 9782956245520
     cover: /_assets/uploads/images/catalogue/ratures.jpg
+    cover_author: <a href="https://lolalecoutour.com/" target="_blank" title="Site de Lola">Lola Lecoutour</a>
     d_buy_url_Fnac: https://www.fnac.com/livre-numerique/a18795703/Gabriel-Barrault-Ratures
     d_buy_url_Kobo: https://www.kobo.com/fr/fr/ebook/ratures-1
     d_buy_url_Google: https://play.google.com/store/books/details?id=aPbJEAAAQBAJ
