@@ -1,6 +1,7 @@
 ---
 title: Durant les travaux, l'exposition continue
 permalink: catalogue/durant-les-travaux-lexposition-continue/
+date: 2018-06-03
 book:
   collection: vagabondages
   author: ["Benoît Hau", "Thomas Testaud"]

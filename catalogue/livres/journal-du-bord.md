@@ -1,6 +1,7 @@
 ---
 title: Journal du bord
 permalink: catalogue/journal-du-bord/
+date: 2024-12-10
 book:
   collection: vagabondages
   author: Julien Usseglio
