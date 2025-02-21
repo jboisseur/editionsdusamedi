@@ -36,19 +36,49 @@ footer ul {
     font-size: x-large;
 }
 
-/* images in main */
+/* utils */
+.center {
+    text-align: center;
+}
+
+.small {
+    font-size: small;
+}
+
+/********************
+        Images
+********************/
 main img {
     display: block;
     margin: 0 auto;
 }
 
-/* cover */
 .cover {
     float: right;
     margin: 1.75rem 0 0 0.75rem;
     max-width: 20%;
 }
 
+/* catalogue cover */
+.catalogue_cover {
+    max-width: 100%;
+    width: 200px;
+}
+
+.galerie {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.galerie img {
+    max-width: 200px;
+}
+
+/********************
+        Catalogue
+********************/
 .catalogue_date {
     font-style: italic;
     font-size: smaller;
@@ -93,22 +123,9 @@ main img {
     font-weight: normal;
 }
 
-/* catalogue cover */
-.catalogue_cover {
-    max-width: 100%;
-    width: 200px;
-}
-
-/* utils */
-.center {
-    text-align: center;
-}
-
-.small {
-    font-size: small;
-}
-
-/* article time */
+/********************
+        Blog
+********************/
 article p > time {
     text-align: center;
     font-style: italic;
@@ -117,4 +134,4 @@ article p > time {
 nav[aria-label="pagination"] {
     display: flex;
     justify-content: space-between;
-  }
+}

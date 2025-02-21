@@ -8,6 +8,8 @@ templateEngineOverride: njk,md
 (Vous êtes libraire ? Nous n'avons pas (encore) de distributeur, si vous souhaitez passer commande envoyez-nous un email !)
 
 ## collection traversées
+*Des romans courts et stylés autour du thème du voyage*
+
 <ul class="catalogue">
   {%- for post in collections.book | reverse -%}
     {%- if post.data.book.collection == "traversées" -%}
@@ -27,6 +29,8 @@ templateEngineOverride: njk,md
 </ul>
 
 ## collection vagabondages
+*Des projets littéraires qui sortent de l'ordinaire*
+
 <ul class="catalogue">
   {%- for post in collections.book | reverse -%}
     {%- if post.data.book.collection == "vagabondages" -%}

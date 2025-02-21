@@ -6,7 +6,7 @@ Chers vous qui nous suivez (virtuellement, au moins),
 
 Ceux d'entre vous qui s'intéressent à nos activités réseau-sociales auront vu que ces deux semaines ont été synonymes de rentrée sameditesque. Oui, pour une fois, nous avons des trucs à vous raconter. Tout d'abord, reprenons nos "to do list" des semaines précédentes. Vous pouvez d'ores et déjà cocher la case "cartes de visite", fraichement livrées par notre imprimeur toulousain, Sergent Papers. On a profité de l'occasion pour faire une photo moche :
 
-![Cartes de visite sur une tableau, recto sur fond blanc : logo (un oiseau fier qui marche) et texte "les éditions du samedi", verso sur fond noir : texte "des livres à semer en chemin" ainsi que l'adresse du site et l'email](/_assets/uploads/images/blog/2015/footing-de-rentree_1.jpg)
+![Cartes de visite sur une tableau, recto sur fond blanc : logo (un oiseau fier qui marche) et texte "les éditions du samedi", verso sur fond noir : texte "des livres à semer en chemin" ainsi que l'adresse du site et l'email](/_assets/uploads/images/blog/footing-de-rentree_1.jpg)
 
 et décidé de les étrenner ce weekend au [Festival vo-vf](http://www.festivalvovf.com/) de Gif-sur-Yvette.
 
