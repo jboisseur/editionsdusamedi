@@ -1,11 +1,10 @@
 ---
 title: Ibidem
 date: 2015-09-19
-category: Général
 ---
 Chers samauditeurs, fidèles parmi les fidèles, nouveaux fraichement débarqués, bonjour !
 
-Vous n'êtes pas sans avoir remarqué notre manque d'activité ces dernières semaines. La raison en est toute simple : nos vies personnelles nous ont entrainées dans un courant loin des samedis qui se sont enfuis avant qu'on ait pu les apercevoir. Ce billet - mise-à-jour ne sera donc malheureusement qu'une répétition du billet précédent mais on est convaincues qu'on aura avancé sur certains sujets d'ici... bientôt. La rentrée, les cahiers neufs, un rythme : on est armées et prêtes à en découdre.
+Vous n'êtes pas sans avoir remarqué notre manque d'activité ces dernières semaines. La raison en est toute simple : nos vies personnelles nous ont entrainées dans un courant loin des samedis qui se sont enfuis avant qu'on ait pu les apercevoir. Ce billet - mise-à-jour ne sera donc malheureusement qu'une répétition du billet précédent mais on est convaincues qu'on aura avancé sur certains sujets d'ici... bientôt. La rentrée, les cahiers neufs, un rythme : on est armées et [prêtes à en découdre](https://www.facebook.com/editionsmagnani/photos/pcb.996506597068660/996506297068690/?type=1&theater).
 
 Ce qui nous occupe ces derniers temps et ce qui nous occupera les temps prochains :
 - les réponses à écrire à vos mails ;

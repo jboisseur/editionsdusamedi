@@ -1,7 +1,6 @@
 ---
 title: Quand on veut aller loin, on fait d'un oiseau une aiguille (ou presque)
 date: 2015-08-08
-category: Général
 ---
 mesdames, messieurs, samauditeurs,
 

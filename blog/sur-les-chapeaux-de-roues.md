@@ -1,7 +1,6 @@
 ---
 title: Sur les chapeaux de rôûês
 date: 2015-07-25
-category: Général
 ---
 Chers lecteurs !
 
