@@ -61,4 +61,4 @@ export default async function (eleventyConfig) {
 // Use njk rather than liquid (add "templateEngineOverride: njk,md" in frontmatter)
 export const config = {
 	markdownTemplateEngine: "njk",
-  };
+};

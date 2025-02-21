@@ -2,8 +2,8 @@
 layout: layouts/base.njk
 ---
 <div class="cover">
-    <img src="{{ book.cover }}" >
-    <p>paru le {{ book.date | blogDate }}</p>
+    <img src="{{ book.cover }}" alt="Couverture de {{ title }}">
+    <p class="catalogue_date">paru le {{ book.date | blogDate }}</p>
 </div>
 
 <h1>{{ title }}</h1>
