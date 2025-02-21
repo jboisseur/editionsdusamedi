@@ -8,8 +8,65 @@ Association à but non lucratif fondée en mars 2015, **les éditions du samedi*
 
 Comme vous l'avez peut-être remarqué, nous nous efforçons de suivre une démarche inclusive ainsi que pratiquer l'orthographe réformée. Ceci dit, nous sommes humain·es donc faillibles ; n'hésitez pas à nous remonter des couacs si vous en voyez !
 
-L'identité graphique est signée Lola Lecoutour pour les logos et Joanne pour la police de caractères, un grand merci à elles.
+L'identité graphique est signée **[Lola Lecoutour](https://lolalecoutour.com/)** pour les logos et **[Joanne](https://www.instagram.com/andaludoodles/)** pour la police de caractères, un grand merci à elles.
 
 Pour en savoir plus et si vous n'êtes pas rebuté·e par les documents administratifs, vous pouvez consulter les statuts de l'association et autres documents disponibles ci-dessous ou bien nous envoyer un message via la page Contact.
 
-À noter qu'il est possible d'adhérer à l'association soit en ligne ci-dessous, soit en nous envoyant par mail votre bulletin d'adhésion. Sur cette page, vous avez également la possibilité de nous faire un don !
+<div class="notice">
+   <p>À noter qu'il est possible d'<strong>adhérer</strong> à l'association et / ou de nous <strong>faire un don</strong>sur notre page <a href="https://www.helloasso.com/associations/les-editions-du-samedi" target="_blank" title="Lien vers notre page HelloAsso">HelloAsso</a>.</p>
+</div>
+
+## Documents
+- [Statuts de l'association](/_assets/uploads/files/statuts.pdf)
+- [PV Assemblée générale 2024](/_assets/uploads/files/pv-assembleegenerale-20240303.pdf)
+- [Rapport moral 2023](/_assets/uploads/files/rapport-moral-samedi-2023.pdf)
+- [Rapport financier 2023](/_assets/uploads/files/rapport-financier-2023.pdf)
+
+<details>
+    <summary>Archives</summary>
+
+#### 2023
+- [PV Assemblée générale 2023](/_assets/uploads/files/archives/2023/pv-assembleegenerale-20230305.pdf)
+- [Rapport moral 2022](/_assets/uploads/files/archives/2023/rapport-moral-samedi-2022.pdf)
+- [Rapport financier 2022](/_assets/uploads/files/archives/2023/rapport-financier-2022.pdf)
+
+#### 2022
+- [PV assemblée générale 2022](/_assets/uploads/files/archives/2022/pv-assembleegenerale-20220306.pdf)
+- [Rapport moral 2021](/_assets/uploads/files/archives/2022/rapport-moral-samedi-2021.pdf)
+- [Rapport financier 2021](/_assets/uploads/files/archives/2022/rapport-financier-2021.pdf)
+
+#### 2021
+- [PV Assemblée générale 2021](/_assets/uploads/files/archives/2021/20210321-assemblee_generale-pv_sans-signature.pdf)
+- [Rapport moral 2020](/_assets/uploads/files/archives/2021/rapport-moral-2020.pdf)
+- [Rapport financier 2020](/_assets/uploads/files/archives/2021/rapport-financier-2020.pdf)
+
+#### 2020
+- [PV Assemblée Générale 2020](/_assets/uploads/files/archives/2020/20200417-assemblee_generale-pv_sans-signature.pdf)
+- [Rapport moral 2019](/_assets/uploads/files/archives/2020/rapport-d-activites-2019-2020.pdf)
+- [Rapport financier 2019](/_assets/uploads/files/archives/2020/rapport-financier-2019.pdf)
+
+#### 2019
+- [PV Assemblée Générale 2019](/_assets/uploads/files/archives/2019/pv-assembleegenerale-09032019.pdf)
+- [Rapport moral 2018](/_assets/uploads/files/archives/2019/rapport-d-activites-2018-2019.pdf)
+- [Rapport financier 2018](/_assets/uploads/files/archives/2019/rapport-financier-2018.pdf)
+
+#### 2018
+- [PV Assemblée Générale 2018](/_assets/uploads/files/archives/2018/pv-assembleegenerale-17032018.pdf)
+- [Rapport moral 2017](/_assets/uploads/files/archives/2018/rapport-d-activites-2017-2018.pdf)
+- [Rapport financier 2017](/_assets/uploads/files/archives/2018/rapport-financier-2017.pdf)
+
+#### 2017
+- [PV Assemblée Générale 2017](/_assets/uploads/files/archives/2017/pv-assembleegenerale-15032017.pdf)
+- [Rapport moral 2016](/_assets/uploads/files/archives/2017/rapport-d-activites-2016-2017.pdf)
+- [Rapport financier 2016](/_assets/uploads/files/archives/2017/rapport-financier-2016.pdf)
+
+#### 2016
+- [PV Assemblée Générale 2016](/_assets/uploads/files/archives/2016/pv-assembleegenerale-16032016.pdf)
+- [Rapport moral 2015](/_assets/uploads/files/archives/2016/rapport-d-activites-2015-2016.pdf)
+- [Rapport financier 2015](/_assets/uploads/files/archives/2016/rapport-financier-2015.pdf)
+
+#### 2015
+- [PV Assemblée Générale 2015](/_assets/uploads/files/archives/2015/pv-assembleegenerale-23032015.pdf)
+- [Statuts de l'association (v1)](/_assets/uploads/files/archives/2015/statutsv1.pdf)
+- [PV Assemblée Générale Constitutive](/_assets/uploads/files/archives/2015/pv-assembleegeneraleconstitutive.pdf)
+</details>

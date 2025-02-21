@@ -107,3 +107,14 @@ main img {
 .small {
     font-size: small;
 }
+
+/* article time */
+article p > time {
+    text-align: center;
+    font-style: italic;
+}
+
+nav[aria-label="pagination"] {
+    display: flex;
+    justify-content: space-between;
+  }

@@ -2,7 +2,22 @@
 layout: layouts/base.njk
 ---
 <article>
-  <h1>{{ title }}</h1>
-  <time>{{ date | blogDate }}</time>
+  <h1 class="center">{{ title }}</h1>
+  <p class="center"><time>{{ date | blogDate }}</time></p>
   {{ content | safe }}
 </article>
+
+{% set previousPost = collections.blog | getPreviousCollectionItem %}
+{% set nextPost = collections.blog | getNextCollectionItem %}
+
+{% if previousPost or nextPost %}
+  <nav aria-label="pagination">
+    {% if previousPost %}
+      <a href="{{ previousPost.url }}">&larr; Précédent</a>
+    {% endif %}
+    <span>&nbsp;</span>
+    {% if nextPost %}
+      <a href="{{ nextPost.url }}">Suivant &rarr;</a>
+    {% endif %}
+  </nav>
+{% endif %}

@@ -3,7 +3,6 @@ title: Parées au lancement !
 date: 2015-07-11
 category: Général
 ---
-
 Salut la foule,
 
 C'est un moment étrange et grisant de se lancer enfin auprès du grand public, de plonger tout habillé dans le bain de l'internet, rien que ça. Alors oui, certains d'entre vous étaient déjà dans la confidence, on avait parlé de notre projet par-ci par-là, lancé un appel à textes confidentiel, demandé des conseils et des avis un peu autour de nous, mais ce saut dans le concret d'une existence internette, c'est pour nous une façon d'affirmer : oui, on y va, on met les mains dans le cambouis et on ne les ressortira pas avant d'avoir publié nos premiers titres (et oui, on se lavera un peu avant de les feuilleter, rassurez-vous).

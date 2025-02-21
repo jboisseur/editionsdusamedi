@@ -3,7 +3,6 @@ title: Sur les chapeaux de rôûês
 date: 2015-07-25
 category: Général
 ---
-
 Chers lecteurs !
 
 Veuillez pardonner le titre de ce billet, d'un potentiel comique admettons-le limité. Du coup, parlons peu, parlons bien. Vous vouliez des nouvelles ?
