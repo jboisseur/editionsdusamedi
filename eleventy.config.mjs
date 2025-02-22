@@ -6,6 +6,7 @@ export default async function (eleventyConfig) {
     // Copy assets
 	eleventyConfig.addPassthroughCopy({ "**/*.{jpg,jpeg,png}": "_assets/img" });	
 	eleventyConfig.addPassthroughCopy({ "**/*.pdf": "_assets/pdf" });
+	eleventyConfig.addPassthroughCopy("_assets/fonts/");
 	
 	
     eleventyConfig.addPassthroughCopy({ "_assets/css/main.css": "_assets/css/main.css" });
