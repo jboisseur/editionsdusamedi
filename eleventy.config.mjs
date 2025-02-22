@@ -1,18 +1,23 @@
 // Plugins
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 export default async function (eleventyConfig) {
     // Copy assets
-    eleventyConfig.addPassthroughCopy("_assets");
+	eleventyConfig.addPassthroughCopy({ "**/*.{jpg,jpeg,png}": "_assets/img" });	
+	eleventyConfig.addPassthroughCopy({ "**/*.pdf": "_assets/pdf" });
+	
+	
+    eleventyConfig.addPassthroughCopy({ "_assets/css/main.css": "_assets/css/main.css" });
+	eleventyConfig.addPassthroughCopy({ "node_modules/simpledotcss/simple.min.css": "_assets/css/simple.min.css" });
+
 	eleventyConfig.addPassthroughCopy("sadmin");
-	eleventyConfig.addPassthroughCopy({"node_modules/simpledotcss/simple.min.css": "_assets/css/simple.min.css"});
-    
+
     // Format date
     eleventyConfig.addFilter('blogDate', blogDate);
 	eleventyConfig.addFilter('withoutYear', withoutYear);
 
 	// AddCollections
-
 		// Returns headernav items, sorted by order
 		eleventyConfig.addCollection('headernav', (collection) => {
 		return collection
@@ -38,6 +43,9 @@ export default async function (eleventyConfig) {
 			}
 		}
 	});
+
+	// Images plugin
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 }
 
 // Date formatting
