@@ -13,12 +13,20 @@ layout: layouts/base.njk
 {{ content | safe }}
 
 <h3>Acheter</h3>
-<h4>Livre papier ({{ book.p_price }} €)</h4>
-<p>Vous pouvez commander le livre auprès de votre libraire ou bien passer par notre boutique sur <a href="{{ book.p_buy_url }}">HelloAsso</a>.</p>
-<h4>Livre numérique ({{ book.d_price }} €)</h4>
-<p>La version numérique est disponible chez la <a href="{{ book.d_buy_url_Fnac }}" class="button">Fnac</a>, sur <a href="{{ book.d_buy_url_Kobo }}" class="button">Kobo</a> et <a href="{{ book.d_buy_url_Google }}" class="button">Google</a>.
+<h4>Livre papier ({{ book.p.price }} €)</h4>
+<p>Vous pouvez commander le livre auprès de votre libraire ou bien passer par notre boutique sur <a href="{{ book.p.url }}">HelloAsso</a>.</p>
+<h4>Livre numérique ({{ book.d.price }} €)</h4>
+<p>La version numérique est disponible chez la <a href="{{ book.d.shop.Fnac }}" class="button" target="_blank">Fnac</a>, sur <a href="{{ book.d.shop.Kobo }}" class="button" target="_blank">Kobo</a> et <a href="{{ book.d.shop.Google }}" class="button" target="_blank">Google</a>.
 <div class="notice">
-    <p><strong>ISBN</strong><br>
-    papier : {{ book.p_isbn }}<br> 
-    numérique : {{ book.d_isbn }}</p>
+    <h4>Informations complémentaires</h4>
+    <p><strong>Nombre de pages :</strong> {{ book.nb_pages }}</p>
+    <p><strong>Illustration de couverture :</strong> {{ book.cover_author | safe }}</p>
+    <p><strong>ISBN :</strong> {{ book.p.isbn }} (papier) ; {{ book.d.isbn }} (numérique)</p>
+    <p><strong>Données logistiques (papier) :</strong></p>
+    <ul>
+        <li>Poids : {{ book.p.dimensions.weight }} g</li>
+        <li>Hauteur : {{ book.p.dimensions.height }} cm</li>
+        <li>Largeur : {{ book.p.dimensions.width }} cm</li>
+        <li>Dos : {{ book.p.dimensions.spine }} cm</li>
+    </ul>
 </div>

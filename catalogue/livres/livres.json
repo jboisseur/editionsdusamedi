@@ -2,6 +2,8 @@
     "layout": "layouts/book.njk",
     "tags": "book",
     "book": {
-        "p_buy_url": "https://www.helloasso.com/associations/les-editions-du-samedi/boutiques/test"
-    }        
+        "p": {
+            "url": "https://www.helloasso.com/associations/les-editions-du-samedi/boutiques/test"
+        }        
+    }
 }

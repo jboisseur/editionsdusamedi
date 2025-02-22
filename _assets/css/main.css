@@ -28,6 +28,12 @@ header img:hover {
     border: 2px solid var(--accent);
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
 /* footer */
 footer ul {
     display: flex;
