@@ -26,7 +26,14 @@ export default async function (eleventyConfig) {
 			.sort((a, b) => (Number(a.data.order) > Number(b.data.order) ? 1 : -1));
 		});
 
-    // RSS plugin
+	// Create preview, ending if with <!-- more -->. Preview stored in page.excerpt
+	eleventyConfig.setFrontMatterParsingOptions({
+		excerpt: true,
+		// Optional, default is "---"
+		excerpt_separator: '<!-- more -->'
+	});
+
+	// RSS plugin
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "rss",
 		outputPath: "/feed.xml",

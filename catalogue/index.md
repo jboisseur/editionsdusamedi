@@ -20,8 +20,12 @@ templateEngineOverride: njk,md
             <p class="center small"><a href="{{ post.data.book.p.url }}" target="_blank" title="Acheter le livre physique"><i class="fa-solid fa-cart-shopping"><span class="sr-only">Acheter</span></i></a> ({{ post.data.book.p.price }} €)</p>
           </div>
           <div class="catalogue_right">
-            <h3><a href="{{ post.url }}" target="_blank">{{post.data.title}}</a> <span class="catalogue_author">par <strong>{{ post.data.book.author }}</span></strong></h3>   
-           {{- post.content | safe -}}
+            <h3><a href="{{ post.url }}" target="_blank">{{post.data.title}}</a> <span class="catalogue_author">par <strong>{{ post.data.book.author }}</span></strong></h3>
+            {%- if post.data.page.excerpt -%}
+              {{ post.data.page.excerpt | safe }}
+            {%- else -%}
+              {{- post.content | safe -}}
+            {%- endif -%}
           </div>
       </li>
     {%- endif -%}
@@ -41,8 +45,12 @@ templateEngineOverride: njk,md
             <p class="center small"><a href="{{ post.data.book.p.url }}" target="_blank" title="Acheter le livre physique"><i class="fa-solid fa-cart-shopping"><span class="sr-only">Acheter</span></i></a> ({{ post.data.book.p.price }} €)</p>
           </div>
           <div class="catalogue_right">
-            <h3><a href="{{ post.url }}" target="_blank">{{post.data.title}}</a> <span class="catalogue_author">par <strong>{{ post.data.book.author }}</span></strong></h3>   
-           {{- post.content | safe -}}
+            <h3><a href="{{ post.url }}" target="_blank">{{post.data.title}}</a> <span class="catalogue_author">par <strong>{{ post.data.book.author }}</span></strong></h3>
+            {%- if post.data.page.excerpt -%}
+              {{ post.data.page.excerpt | safe }}
+            {%- else -%}
+              {{- post.content | safe -}}
+            {%- endif -%}
           </div>
       </li>
     {%- endif -%}
