@@ -51,6 +51,10 @@ footer ul {
     font-size: small;
 }
 
+.italic {
+    font-style: italic;
+}
+
 /********************
         Images
 ********************/
