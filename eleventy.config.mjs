@@ -1,6 +1,7 @@
 // Plugins
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import fg from "fast-glob";
 
 export default async function (eleventyConfig) {
     // Copy assets
@@ -24,6 +25,11 @@ export default async function (eleventyConfig) {
 		return collection
 			.getFilteredByTags("headernav")
 			.sort((a, b) => (Number(a.data.order) > Number(b.data.order) ? 1 : -1));
+		});
+
+		// Create collection for Durant les travaux covers
+		eleventyConfig.addCollection('durantlestravaux_couv', (collection) => {
+			return fg.sync(['**/durantlestravaux/*']);
 		});
 
 	// Create preview, ending if with <!-- more -->. Preview stored in page.excerpt
