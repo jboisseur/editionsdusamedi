@@ -8,7 +8,7 @@ book:
   author: ["Benoît Hau", "Thomas Testaud"]
   date: 2018-06-03
   nb_pages: 40
-  cover: /_assets/uploads/images/catalogue/durantlestravaux.tb.jpg
+  cover: /_assets/uploads/images/catalogue/durantlestravaux.jpg
   cover_author: Collectif
   p:
     # physical book data

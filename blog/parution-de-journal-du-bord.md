@@ -8,4 +8,4 @@ Eh bien si vous aviez loupé la nouvelle, nous la repartageons : [*Journal du bo
 
 Un petit événement de sortie à Paris est en cours de préparation avec l'auteur. Restez à l'écoute !
 
-![Couverture de Journal du bord](/_assets/uploads/images/catalogue/journaldubord_couv.tb.jpg)
+![Couverture de Journal du bord](/_assets/uploads/images/catalogue/journaldubord.jpg)

@@ -8,7 +8,7 @@ book:
   author: Julien Usseglio
   date: 2024-12-10
   nb_pages: 96
-  cover: /_assets/uploads/images/catalogue/journaldubord_couv.tb.jpg
+  cover: /_assets/uploads/images/catalogue/journaldubord.jpg
   cover_author: Luzeye
   p:
     # physical book data
