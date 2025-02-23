@@ -5,13 +5,17 @@ import fg from "fast-glob";
 
 export default async function (eleventyConfig) {
     // Copy assets
-	eleventyConfig.addPassthroughCopy({ "**/*.{jpg,jpeg,png}": "_assets/img" });	
+	eleventyConfig.addPassthroughCopy({ "_assets/**/*.{jpg,jpeg,png}": "_assets/images" });	
+	eleventyConfig.addPassthroughCopy({ "node_modules/lightbox2/dist/images/*": "_assets/images" });	
 	eleventyConfig.addPassthroughCopy({ "**/*.pdf": "_assets/pdf" });
 	eleventyConfig.addPassthroughCopy("_assets/fonts/");
 	
 	
     eleventyConfig.addPassthroughCopy({ "_assets/css/main.css": "_assets/css/main.css" });
 	eleventyConfig.addPassthroughCopy({ "node_modules/simpledotcss/simple.min.css": "_assets/css/simple.min.css" });
+	eleventyConfig.addPassthroughCopy({ "node_modules/lightbox2/dist/css/lightbox.min.css": "_assets/css/lightbox.min.css" });	
+
+	eleventyConfig.addPassthroughCopy({ "node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js": "_assets/js/lightbox-plus-jquery.min.js" });	
 
 	eleventyConfig.addPassthroughCopy("sadmin");
 
@@ -59,7 +63,22 @@ export default async function (eleventyConfig) {
 	});
 
 	// Images plugin
-	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+		// output image formats
+		formats: ["avif", "webp", "jpeg"],
+
+		// output image widths
+		widths: [200, 500, 1000],
+
+		// optional, attributes assigned on <img> nodes override these values
+		htmlOptions: {
+			imgAttributes: {
+				loading: "lazy",
+				decoding: "async",				
+			},
+			pictureAttributes: {}
+		},
+	});
 }
 
 // Date formatting

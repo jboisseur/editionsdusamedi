@@ -27,7 +27,7 @@ Un livre, un CD pour partir ou repartir dans les bruits de nos vies désordonné
 
 ### Couvertures
 <div class="galerie">
-    {% for image in collections.durantlestravaux_couv %}
+    {%- for image in collections.durantlestravaux_couv -%}
         <figure><img src="/{{ image }}" alt=""></figure>
-    {% endfor %}
+    {%- endfor -%}
 </div>

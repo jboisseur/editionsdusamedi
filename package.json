@@ -16,6 +16,7 @@
   "dependencies": {
     "@11ty/eleventy-img": "^6.0.1",
     "fast-glob": "^3.3.3",
+    "lightbox2": "^2.11.5",
     "simpledotcss": "^2.3.3"
   }
 }
