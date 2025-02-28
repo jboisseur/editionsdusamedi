@@ -37,7 +37,7 @@ Pour en savoir plus et si vous n'êtes pas rebuté·e par les documents administ
 
 #### 2021
 - [PV Assemblée générale 2021](/_assets/pdf/20210321-assemblee_generale-pv_sans-signature.pdf)
-- [Rapport moral 2020](/_assets/pdf/rapport-moral-2020.pdf)
+- [Rapport moral 2020](/_assets/pdf/rapport-moral-2021.pdf)
 - [Rapport financier 2020](/_assets/pdf/rapport-financier-2020.pdf)
 
 #### 2020
