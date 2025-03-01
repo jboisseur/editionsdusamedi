@@ -3,7 +3,7 @@ backend:
   branch: main
 locale: 'fr'
 publish_mode: simple
-media_folder: "/_assets/uploads/"
+media_folder: "/_assets/"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Billets" # Used in the UI
@@ -61,7 +61,7 @@ collections:
             required: false
             fields:
               - {label: "Prix", name: "price", widget: "number", value_type: "float"}
-              - {label: "ISBN", name: "p_isbn", widget: "string"}
+              - {label: "ISBN", name: "isbn", widget: "string"}
               - name: "dimensions"
                 label: "Dimensions"
                 fields:
@@ -79,8 +79,10 @@ collections:
               - {label: "ISBN", name: "isbn", widget: "string", required: false}
               - name: "shop"
                 label: "elibrairie"
+                widget: "object"
+                required: false
                 fields:
-                  - {label: "Lien achat numérique Fnac", name: "d_buy_url_Fnac", widget: "string", required: false}
-                  - {label: "Lien achat numérique Kobo", name: "d_buy_url_Kobo", widget: "string", required: false}
-                  - {label: "Lien achat numérique Google", name: "d_buy_url_Google", widget: "string", required: false}
+                  - {label: "Fnac", name: "Fnac", widget: "string"}
+                  - {label: "Kobo", name: "Kobo", widget: "string"}
+                  - {label: "Google", name: "Google", widget: "string"}
       - {label: "Résumé", name: "body", widget: "markdown"}
