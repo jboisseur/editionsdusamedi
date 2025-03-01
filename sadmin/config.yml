@@ -3,7 +3,7 @@ backend:
   branch: main
 locale: 'fr'
 publish_mode: simple
-media_folder: "/_assets/"
+media_folder: /_assets
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Billets" # Used in the UI
@@ -64,6 +64,7 @@ collections:
               - {label: "ISBN", name: "isbn", widget: "string"}
               - name: "dimensions"
                 label: "Dimensions"
+                widget: "object"
                 fields:
                   - {label: "Poids (g)", name: "weight", widget: "number", value_type: "float"}
                   - {label: "Largeur (cm)", name: "width", widget: "number", value_type: "float"}
