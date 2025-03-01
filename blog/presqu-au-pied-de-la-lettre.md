@@ -17,7 +17,7 @@ Il est bien parti ? Carrément, onze semaines passées en 2021 et neuf textes pu
 
 Suivez-le sur les réseaux : [@BaptistePlume](https://twitter.com/BaptistePlume) sur Twitter et [Youtube](https://www.youtube.com/channel/UC30Zoz2sLoIM41kNwB-MXQg), Les autruches insomniaques sur [Facebook](https://www.facebook.com/Lesautruchesinsomniaques/posts/).
 
-<div class="youtube" align="center"><object data="https://www.youtube.com/v/Fl-PFbG8hc8&amp;modestbranding=1" type="application/x-shockwave-flash" width="640" height="385" data-mce-fragment="1"><param name="movie" value="https://www.youtube.com/v/Fl-PFbG8hc8&amp;modestbranding=1" /><param name="wmode" value="transparent" /></object></div>
+<div class="youtube"><object data="https://www.youtube.com/v/Fl-PFbG8hc8&amp;modestbranding=1" type="application/x-shockwave-flash" width="640" height="385" data-mce-fragment="1"><param name="movie" value="https://www.youtube.com/v/Fl-PFbG8hc8&amp;modestbranding=1" /><param name="wmode" value="transparent" /></object></div>
 
 Et si vous ne l'avez pas encore, [commandez donc son livre](https://www.helloasso.com/associations/les-editions-du-samedi/paiements/durant-les-travaux-l-exposition-continue), de nouvelles couvertures sont disponibles !
 
