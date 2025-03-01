@@ -121,8 +121,13 @@ main img {
     grid-row: 1;
 }
 
-.catalogue li h3, .catalogue li p {
-    margin: 0.375rem;
+.catalogue li h3 {
+    margin: 0 0.375rem 0.375rem;
+    line-height: 70%;
+}
+
+.catalogue li p {
+    margin: 0 0.375rem 0.375rem;
 }
 
 .catalogue li .catalogue_right {
