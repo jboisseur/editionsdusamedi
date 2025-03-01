@@ -3,13 +3,15 @@ backend:
   branch: main
 locale: 'fr'
 publish_mode: simple
-media_folder: "_assets/uploads/images" # Specifies the folder path where uploaded files should be saved, relative to the base of the repo.
+media_folder: "_assets/uploads/images"
+public_folder: "/_assets/images"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Billets" # Used in the UI
     label_singular: "Billet" # Used in the UI, ie: "New Post"
     folder: "blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    media_folder: "_assets/uploads/images/blog"
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
@@ -21,6 +23,7 @@ collections:
     label: "Page"
     folder: "/"
     create: true
+    media_folder: "_assets/uploads/images/pages"
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
@@ -32,6 +35,7 @@ collections:
     label_singular: "Livre"
     folder: "catalogue/livres"
     create: true
+    media_folder: "_assets/uploads/images/catalogue"
     slug: "{{title}}"
     fields:
       - {label: "Titre du livre", name: "title", widget: "string"}
