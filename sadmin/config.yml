@@ -3,7 +3,7 @@ backend:
   branch: main
 locale: 'fr'
 publish_mode: simple
-media_folder: "_assets/uploads"
+media_folder: "/_assets/uploads/"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Billets" # Used in the UI
@@ -49,12 +49,14 @@ collections:
             widget: "file"
             required: false            
             media_library:
+              choose_url: false
+              media_folder: /_assets/uploads/images/catalogue/
               config:
                 multiple: false
-                choose_url: false
-                media_folder: /_assets/uploads/images/catalogue/
           - {label: "Illustrateurice", name: "cover_author", widget: "list", collapsed: true}
           - name: "p"
+            collapse: true
+            widget: "object"
             label: "Informations livre physique"
             required: false
             fields:
@@ -68,6 +70,8 @@ collections:
                   - {label: "Hauteur (cm)", name: "height", widget: "number", value_type: "float"}
                   - {label: "Dos (cm)", name: "spine", widget: "number", value_type: "float"}
           - name: "d"
+            collapse: true
+            widget: "object"
             label: "Informations livre numérique"
             required: false
             fields:
