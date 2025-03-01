@@ -23,7 +23,7 @@ layout: layouts/base.njk
     <h4>Informations complémentaires</h4>
     <p><strong>Nombre de pages :</strong> {{ book.nb_pages }}</p>
     <p><strong>Illustration de couverture :</strong> {{ book.cover_author | safe }}</p>
-    <p><strong>ISBN :</strong> {{ book.p.isbn }} (papier) {%- if book.d -%}; {{ book.d.isbn }} (numérique){%- endif -%}</p>    
+    <p><strong>ISBN :</strong> {{ book.p.isbn }} (papier) {%- if book.d -%} ; {{ book.d.isbn }} (numérique){%- endif -%}</p>    
     <p><strong>Données logistiques (papier) :</strong></p>
     <ul>
         <li>Poids : {{ book.p.dimensions.weight }} g</li>

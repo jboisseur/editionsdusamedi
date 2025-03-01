@@ -18,7 +18,7 @@ book:
       weight: 145 # in g
       width: 14.6 # in cm
       height: 21 # in cm
-      spine: "?" # in cm
+      spine: # in cm
   d: 
     # digital book data
     price: 3.49

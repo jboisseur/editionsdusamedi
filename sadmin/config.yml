@@ -60,7 +60,7 @@ collections:
             label: "Informations livre physique"
             required: false
             fields:
-              - {label: "Prix", name: "price", widget: "number", value_type: "float"}
+              - {label: "Prix (EUR TTC)", name: "price", widget: "number", value_type: "float"}
               - {label: "ISBN", name: "isbn", widget: "string"}
               - name: "dimensions"
                 label: "Dimensions"
@@ -76,7 +76,7 @@ collections:
             label: "Informations livre numérique"
             required: false
             fields:
-              - {label: "Prix", name: "price", widget: "number", value_type: "float", required: false}          
+              - {label: "Prix (EUR TTC)", name: "price", widget: "number", value_type: "float", required: false}          
               - {label: "ISBN", name: "isbn", widget: "string", required: false}
               - name: "shop"
                 label: "elibrairie"
