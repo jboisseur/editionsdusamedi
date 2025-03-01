@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 locale: 'fr'
-publish_mode: editorial_workflow
+publish_mode: simple
 media_folder: "_assets/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -13,10 +13,9 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "tags", name: "tags", widget: "hidden", default: ["blog"]}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
-      - {label: "tags", name: "tags", widget: "hidden", default: ["blog"]}
-      - {label: "Catégorie", name: "category", widget: "list", default: ["Général"]}
       - {label: "Contenu", name: "body", widget: "markdown"}
   - name: "pages" 
     label: "Page"
@@ -25,9 +24,9 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
+      - {label: "Ordre", name: "order", widget: "number"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Contenu", name: "body", widget: "markdown"}
-      - {label: "Ordre", name: "order", widget: "number"}
   - name: "livres"
     label: "Livres"
     label_singular: "Livre"
@@ -37,25 +36,47 @@ collections:
     fields:
       - {label: "Titre du livre", name: "title", widget: "string"}
       - {label: "permalink", name: "permalink", widget: "string", default: "catalogue/{{slug}}/"}
-      - name: book
+      - name: "book"
         collapse: true
         widget: "object"
         fields:
-          - { label: "Collection", name: "collection", widget: "select", options: ["traversées", "vagabondages"]}
-          - {label: "Auteurice", name: "author", widget: "string"}
+          - {label: "Collection", name: "collection", widget: "select", options: ["traversées", "vagabondages"]}
+          - {label: "Auteurice", name: "author", widget: "list", collapsed: true}
           - {label: "Date de parution", name: "date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
-          - {label: "Prix papier", name: "p_price", widget: "number", value_type: "float", required: false}
-          - {label: "Prix numérique", name: "d_price", widget: "number", value_type: "float", required: false}
-          - {label: "ISBN papier", name: "p_isbn", widget: "string", required: false}
-          - {label: "ISBN numérique", name: "d_isbn", widget: "string", required: false}
+          - {label: "Nombre de pages", name: "nb_pages", widget: "number", required: false}
           - label: "Couverture"
             name: "cover"
             widget: "file"
-            required: false
+            required: false            
             media_library:
               config:
                 multiple: false
-          - {label: "Lien achat numérique Fnac", name: "d_buy_url_Fnac", widget: "string", required: false}
-          - {label: "Lien achat numérique Kobo", name: "d_buy_url_Kobo", widget: "string", required: false}
-          - {label: "Lien achat numérique Google", name: "d_buy_url_Google", widget: "string", required: false}
+                choose_url: false
+                media_folder: /_assets/uploads/images/catalogue/
+          - {label: "Illustrateurice", name: "cover_author", widget: "list", collapsed: true}
+          - name: "p"
+            label: "Informations livre physique"
+            required: false
+            fields:
+              - {label: "Prix", name: "price", widget: "number", value_type: "float"}
+              - {label: "ISBN", name: "p_isbn", widget: "string"}
+              - name: "dimensions"
+                label: "Dimensions"
+                fields:
+                  - {label: "Poids (g)", name: "weight", widget: "number", value_type: "float"}
+                  - {label: "Largeur (cm)", name: "width", widget: "number", value_type: "float"}
+                  - {label: "Hauteur (cm)", name: "height", widget: "number", value_type: "float"}
+                  - {label: "Dos (cm)", name: "spine", widget: "number", value_type: "float"}
+          - name: "d"
+            label: "Informations livre numérique"
+            required: false
+            fields:
+              - {label: "Prix", name: "price", widget: "number", value_type: "float", required: false}          
+              - {label: "ISBN", name: "isbn", widget: "string", required: false}
+              - name: "shop"
+                label: "elibrairie"
+                fields:
+                  - {label: "Lien achat numérique Fnac", name: "d_buy_url_Fnac", widget: "string", required: false}
+                  - {label: "Lien achat numérique Kobo", name: "d_buy_url_Kobo", widget: "string", required: false}
+                  - {label: "Lien achat numérique Google", name: "d_buy_url_Google", widget: "string", required: false}
       - {label: "Résumé", name: "body", widget: "markdown"}
