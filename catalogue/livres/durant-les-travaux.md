@@ -5,7 +5,7 @@ date: 2018-06-03
 book:
   # common data
   collection: vagabondages
-  author: ["Benoît Hau", "Thomas Testaud"]
+  author: ["Benoît Hau", " Thomas Testaud"]
   date: 2018-06-03
   nb_pages: 40
   cover: /_assets/uploads/images/catalogue/durantlestravaux.jpg
