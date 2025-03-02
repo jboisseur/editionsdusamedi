@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: stage
 locale: 'fr'
 publish_mode: simple
 media_folder: "_assets/uploads/images"
