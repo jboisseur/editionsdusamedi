@@ -5,6 +5,7 @@ title: blog
 templateEngineOverride: njk,md
 layout: layouts/base.njk
 eleventyExcludeFromCollections: ["blog"]
+date: 2015-01-01
 ---
 {% set postslist = collections.blog | reverse %}
 {% set index = postslist.length - 1 %}
