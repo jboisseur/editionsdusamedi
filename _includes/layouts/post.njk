@@ -6,10 +6,8 @@ layout: layouts/base.njk
   <p class="center"><time>{{ date | blogDate }}</time></p>
   {{ content | safe }}
 </article>
-
-{% set previousPost = collections.blog | getPreviousCollectionItem %}
-{% set nextPost = collections.blog | getNextCollectionItem %}
-
+{%- set previousPost = collections.blog | getPreviousCollectionItem -%}
+{%- set nextPost = collections.blog | getNextCollectionItem -%}
 {% if previousPost or nextPost %}
   <nav aria-label="pagination">
     {% if previousPost %}
@@ -21,3 +19,4 @@ layout: layouts/base.njk
     {% endif %}
   </nav>
 {% endif %}
+{% include 'layouts/post_archives.njk' %}

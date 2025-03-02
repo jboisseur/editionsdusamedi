@@ -1,0 +1,18 @@
+{% set showYear = true %}
+<div class="notice">
+  <h3>Archives</h3>
+  <ul reversed>
+  {% set currentYear = "" %}
+  {% for post in collections.blog | reverse %}
+  {% if showYear %}
+        {% set postYear = post.date.getFullYear() %}
+        {% if currentYear != postYear %}
+        {% set currentYear = postYear %}
+        <h4>{{ postYear }}</h4>
+        {% endif %}
+  {% endif %}
+    <li><a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code> {% endif %}</a> ({{ post.date | withoutYear }})
+    </li>
+  {% endfor %}
+  </ul>
+</div>
