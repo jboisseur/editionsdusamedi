@@ -2,7 +2,7 @@
 title: Des sorties et la suite
 date: 2024-03-08
 ---
-Les **éditions du samedi** se sont réunies en Assemblée générale dimanche dernier, 3 mars. Nous nous sommes aperçu que nous n'avions pas écrit de billet pour la sortie de nos livres fin octobre 😱
+Les éditions du samedi se sont réunies en Assemblée générale dimanche dernier, 3 mars. Nous nous sommes aperçu que nous n'avions pas écrit de billet pour la sortie de nos livres fin octobre 😱
 
 Alors voici une entrée supplémentaire à notre cher journal :
 
