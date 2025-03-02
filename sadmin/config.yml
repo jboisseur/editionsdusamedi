@@ -22,7 +22,7 @@ collections:
   - name: "pages" 
     label: "Page"
     folder: "/"
-    media_folder: "./_assets/uploads/images/pages"
+    media_folder: "//_assets/uploads/images/pages"
     create: true
     slug: "{{slug}}"
     fields:
@@ -34,7 +34,7 @@ collections:
     label: "Livres"
     label_singular: "Livre"
     folder: "catalogue/livres"
-    media_folder: "../_assets/uploads/images/catalogue"
+    media_folder: "//_assets/uploads/images/catalogue"
     create: true
     slug: "{{title}}"
     fields:
@@ -52,28 +52,26 @@ collections:
             name: "cover"
             widget: "file"
             required: false
-          - {label: "Illustrateurice", name: "cover_author", widget: "list", collapsed: true}
+          - {label: "Illustrateurice", name: "cover_author", widget: "list", collapsed: true, required: false}
           - name: "p"
             collapse: true
             widget: "object"
             label: "Informations livre physique"
-            required: false
             fields:
-              - {label: "Prix (EUR TTC)", name: "price", widget: "number", value_type: "float"}
-              - {label: "ISBN", name: "isbn", widget: "string"}
+              - {label: "Prix (EUR TTC)", name: "price", widget: "number", value_type: "float", required: false}
+              - {label: "ISBN", name: "isbn", widget: "string", required: false}
               - name: "dimensions"
                 label: "Dimensions"
                 widget: "object"
                 fields:
-                  - {label: "Poids (g)", name: "weight", widget: "number", value_type: "float"}
-                  - {label: "Largeur (cm)", name: "width", widget: "number", value_type: "float"}
-                  - {label: "Hauteur (cm)", name: "height", widget: "number", value_type: "float"}
-                  - {label: "Dos (cm)", name: "spine", widget: "number", value_type: "float"}
+                  - {label: "Poids (g)", name: "weight", widget: "number", value_type: "float", required: false}
+                  - {label: "Largeur (cm)", name: "width", widget: "number", value_type: "float", required: false}
+                  - {label: "Hauteur (cm)", name: "height", widget: "number", value_type: "float", required: false}
+                  - {label: "Dos (cm)", name: "spine", widget: "number", value_type: "float", required: false}
           - name: "d"
             collapse: true
             widget: "object"
             label: "Informations livre numérique"
-            required: false
             fields:
               - {label: "Prix (EUR TTC)", name: "price", widget: "number", value_type: "float", required: false}          
               - {label: "ISBN", name: "isbn", widget: "string", required: false}
@@ -82,7 +80,7 @@ collections:
                 widget: "object"
                 required: false
                 fields:
-                  - {label: "Fnac", name: "Fnac", widget: "string"}
-                  - {label: "Kobo", name: "Kobo", widget: "string"}
-                  - {label: "Google", name: "Google", widget: "string"}
-      - {label: "Résumé", name: "body", widget: "markdown"}
+                  - {label: "Fnac", name: "Fnac", widget: "string", required: false}
+                  - {label: "Kobo", name: "Kobo", widget: "string", required: false}
+                  - {label: "Google", name: "Google", widget: "string", required: false}
+      - {label: "Résumé", name: "body", widget: "markdown", required: false}
