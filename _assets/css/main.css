@@ -13,8 +13,9 @@ header h1 > a:hover {
     color: var(--accent);
 }
 
-header h1 {
+body > header h1 {
     font-family: "BookendsWithAccents";
+    margin: 0.5rem auto;
 }
 
 header img {
@@ -28,10 +29,12 @@ header img:hover {
     border: 2px solid var(--accent);
 }
 
-header {
-    position: sticky;
-    top: 0;
-    z-index: 99;
+body > header {
+    padding: 0.25rem;
+}
+
+header > nav {
+    padding: 0.5rem 0 0;
 }
 
 /* footer */
