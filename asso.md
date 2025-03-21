@@ -1,7 +1,7 @@
 ---
 tags: headernav
-order: 3
 layout: layouts/page.njk
+order: 3
 title: l'asso
 ---
 Association à but non lucratif fondée en mars 2015, **les éditions du samedi** ont vocation à publier des textes qu'elles auront trouvé stylés et atypiques, dans l'idée de les faire circuler chez les copaines voire au-delà. Elles sont aujourd’hui animées par un petit groupe enthousiaste - Anne-Laure, Dorian, Eva, Julie et Loïc - qui a décidé de s’organiser avec un fonctionnement collégial pour trouver et éditer des textes qui lui plaisent. Les enthousiastes supplémentaires sont les bienvenu·es dans la bande !
@@ -13,17 +13,22 @@ L'identité graphique est signée **[Lola Lecoutour](https://lolalecoutour.com/)
 Pour en savoir plus et si vous n'êtes pas rebuté·e par les documents administratifs, vous pouvez consulter les statuts de l'association et autres documents disponibles ci-dessous ou bien nous envoyer un message via la page Contact.
 
 <div class="notice">
-   <p>À noter qu'il est possible d'<strong>adhérer</strong> à l'association et / ou de nous <strong>faire un don</strong>sur notre page <a href="https://www.helloasso.com/associations/les-editions-du-samedi" target="_blank" title="Lien vers notre page HelloAsso">HelloAsso</a>.</p>
+   <p>À noter qu'il est possible d'<strong>adhérer</strong> à l'association et / ou de nous <strong>faire un don</strong> sur notre page <a href="https://www.helloasso.com/associations/les-editions-du-samedi" target="_blank" title="Lien vers notre page HelloAsso">HelloAsso</a>.</p>
 </div>
 
 ## Documents
 - [Statuts de l'association](/_assets/pdf/statuts.pdf)
-- [PV Assemblée générale 2024](/_assets/pdf/pv-assembleegenerale-20240303.pdf)
-- [Rapport moral 2023](/_assets/pdf/rapport-moral-samedi-2023.pdf)
-- [Rapport financier 2023](/_assets/pdf/rapport-financier-2023.pdf)
+- [PV Assemblée générale 2025](/_assets/pdf/pv-assembleegenerale-20250302.pdf)
+- [Rapport moral 2024](/_assets/pdf/rapport-moral-samedi-2024.pdf)
+- [Rapport financier 2024](/_assets/pdf/rapport-financier-2024.pdf)
 
 <details>
     <summary>Archives</summary>
+
+#### 2024
+- [PV Assemblée générale 2024](/_assets/pdf/pv-assembleegenerale-20240303.pdf)
+- [Rapport moral 2023](/_assets/pdf/rapport-moral-samedi-2023.pdf)
+- [Rapport financier 2023](/_assets/pdf/rapport-financier-2023.pdf)
 
 #### 2023
 - [PV Assemblée générale 2023](/_assets/pdf/pv-assembleegenerale-20230305.pdf)
